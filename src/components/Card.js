@@ -1,6 +1,8 @@
-import React from "react";
+import { useEffect, useRef, useState } from 'react';
 import user from '../images/userImg.png'
+import Peer from 'peerjs';
 const Card = ({Name}) => {
+  
   return (
     <div className="h  d-flex justify-content-center align-items-center" >
         <div className=" d-flex flex-column align-items-center" style={{ height: "60%" }}>
